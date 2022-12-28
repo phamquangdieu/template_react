@@ -7,6 +7,7 @@ import { history } from "./redux/configStore";
 export interface AppProps {}
 
 const App: React.FC<AppProps> = () => {
+  console.log(123);
   return (
     <Router history={history}>
       <Switch>
